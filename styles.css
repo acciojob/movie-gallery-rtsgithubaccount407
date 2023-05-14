@@ -1,7 +1,9 @@
 
 /* Your CSS Code here. */
 .container-fluid{
-	display:flex;
-	justify-content:space-between;
+	display:grid;
+	grid-template-columns:repeat(3,auto);
+    column-gap:65px;
+	
 	
 }
